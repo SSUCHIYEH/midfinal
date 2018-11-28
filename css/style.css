@@ -1,0 +1,715 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+@import url('https://fonts.googleapis.com/css?family=Nosifer|Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');
+
+
+.homebox{
+    background-image: url(../images/landing2.jpg);
+    background-size: cover;
+    height: 550px;
+    background-position: 0 -150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nababa {
+    margin-bottom: 0;
+}
+.nav_brand{
+    text-decoration: none;
+    color:#EAF9D9;
+}
+.nav-link{
+    color: #EAF9D9;
+}
+.nav_bg{
+    background-color: #33312f;
+}
+
+.homebox_slogan{
+    color: #fff;
+    font-size: 3rem;
+
+}
+.portfolio{
+    height: 200px;
+    color: #33312f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem
+}
+
+.left1
+{
+    position: relative;
+    height: 300px;
+    
+}
+
+.leftimg{
+    position: absolute;
+    width: 47.73% ;
+    right:18px;
+    height: 298px;
+}
+
+.right1{
+    position: relative;
+    height: 300px;
+    padding-left: 18px;
+
+}
+
+.textbox1{
+    box-sizing: border-box;
+    margin-top:50px;
+}
+.righttext_title{
+    font-size: 2rem;
+    font-family: 'Noto Sans TC', sans-serif;
+
+    letter-spacing: 3px;
+}
+.righttext{
+    width: 47.73%;
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 3px;
+}
+.right1 a{
+    text-decoration: none;
+    left:316px;
+    bottom:18px;
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    padding:3px;
+    width: 50px;
+    height: 30px;
+    background-color: #736F72;
+    color: #BBB8B2
+}
+.right1 a:hover{
+    text-decoration: none;
+    color: #736F72;
+    background-color: #BBB8B2;
+}
+.leftbutton{
+    text-decoration: none;
+    bottom:18px;
+    right:18px;
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    padding:3px;
+    width: 50px;
+    height: 30px;
+    background-color: #736F72;
+    color: #BBB8B2;
+}
+.left2 a:hover{
+    text-decoration: none;
+    color: #736F72;
+    background-color: #BBB8B2;
+}
+.left2
+{
+    position: relative;
+    height: 300px;
+   
+
+}
+.right2
+{
+    position: relative;
+    height: 100px;
+}
+.rightimg{
+    width: 47.73%;
+    height: 280px;
+}
+
+.textbox2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 47.73% ;
+    right:18px;
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 3px;
+    margin-top:50px;
+}
+.lefttexttitle{
+    font-size: 2rem;
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 3px;
+}
+
+
+
+.volleyball{
+    position: relative;
+    box-sizing: border-box;
+    background-color: #33312f;
+    height: 400px;
+    padding-top:46px;
+
+}
+.volleyimg{
+    background-image: url(../images/homevolley.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+.volley_title{
+    text-align: none;
+    color: #EAF9D9;
+    font-size: 35px;
+    margin-left:556px;
+}
+
+.volleyball a:hover
+{
+    color: #EAF9D9;
+}
+.department{
+    color: #EAF9D9;
+    margin-left:495px;
+    font-size: 20px;
+}
+.volley_slogan{
+    color: #EAF9D9;
+    margin-left:46px;
+    font-size: 4rem;
+}
+.volley_slogan2{
+    color: #EAF9D9;
+    margin-left:46px;
+    font-size: 3rem;
+}
+
+.port_detect{
+    background-image: url(../images/portdetect.png);
+    background-size: cover;
+    background-position: 0 -140px;
+}
+
+.detectright{
+    box-sizing: border-box;
+    padding-top:200px;
+    
+}
+.detectorleft{
+    height: 550px;
+    box-sizing: border-box;
+}
+.det_img{
+    width: 450px;
+    height: 400px;
+    margin-top:100px;
+}
+.detect{
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size:3rem;
+    color: #E4E6C3;
+}
+.detecttext{
+    width: 620px;
+    line-height: 30px;
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 3px;
+    color: #E4E6C3;
+}
+.det_oled{
+    box-sizing: border-box;
+    height: 500px;
+    text-align: center;
+    align-items: center;
+    padding-top:50px;
+}
+.det_sound{
+    text-align: right;
+    box-sizing: border-box;
+    padding-top:50px;
+    padding-right:0;
+}
+.det_buzzer{
+    box-sizing: border-box;
+    padding-top:50px;
+    padding-left:0; 
+}
+.soundimg{
+
+    border-radius: 50%;
+    width: 200px; 
+}
+.soundtext_title{
+    font-size: 30px;
+    margin-right:10px;
+    margin-top:10px;
+    color: #33312f;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.soundtext{
+    color: #33312f; 
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-right:10px;
+}
+.oledimg{
+   
+    border-radius: 50%;
+    width: 200px;
+}
+.oledtext_title{
+    font-size: 30px;
+    margin-top:10px;
+    color: #33312f;
+}
+.oledtext{
+    color: #33312f;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.buzzerimg{
+
+    border-radius: 50%;
+    width: 200px; 
+    height: 200px;
+}
+.buzzertext_title{
+    margin-left:60px;
+    font-size: 30px;
+    margin-top:10px;
+    color: #33312f;
+}
+.buzzertext{
+    color: #33312f;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.video{
+    text-align: center;
+    height: 370px;
+
+}
+
+.planMain{
+    background-image: url(../images/interface.png);
+    background-size: cover;
+    height: 960px;
+    background-position: 300px 0;
+    padding-top:240px;
+    padding-left:112px;
+}
+.planTitle{
+    font-family: 'Nosifer', cursive;
+    color:#4c1203;
+   /*color: #4f190e;*/
+    font-size: 4rem;
+}
+.planintro{
+    width: 500px;
+    line-height: 40px;
+    color: #736F72;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.planscene{
+    height: 50px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+    text-align: center;
+    background-color: #000;
+    color:#4c1203;
+}
+
+.planimg1{
+    background-image: url(../images/img1.png);
+    background-size: cover;
+    height: 400px;
+}
+.planimg2{
+    background-image: url(../images/img2.png);
+    background-size: cover;
+    height: 400px;
+    background-position: 0 -25px;
+}
+.char{
+    height: 200px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-style: italic;
+    padding-top:50px;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+    color:#4f190e;
+    
+}
+.charright{
+    height: 480px;
+}
+.charmain{
+    height: 480px;
+}
+.mainTitle{
+    color:#33312f;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.mainintro{
+    color:#33312f;
+    width: 500px;
+    letter-spacing: 3px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.charleft{
+    height: 520px;
+    text-align: right;
+}
+
+.badguyimg{
+    height: 520px;
+}
+.badTitle{
+    text-align-last: left;
+    color:#33312f;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: Microsoft JhengHei;
+}
+.badintro{
+
+    color:#33312f;
+    letter-spacing: 3px;
+    font-family: Microsoft JhengHei;
+}
+.badguyleft{
+    padding-left:148px;
+
+}
+
+.carou{
+    padding: 0;
+}
+.game{
+    text-align: center;
+    font-size: 40px;
+    height: 100px;
+    padding-top: 20px;
+}
+.big{
+    height: 104px;
+    outline:3px solid #79b796;
+}
+.crown{
+
+}
+.team{
+    height:52px;
+    text-align: center;
+    font-size: 30px;
+    color: #79b796;
+}
+.win{
+    font-family: 'Noto Sans TC', sans-serif;
+    outline:3px solid #79b796;
+    background-color: #33312f;
+}
+.vs{
+    letter-spacing: 10px;
+    outline:3px solid #79b796;
+    background-color: #33312f;
+}
+.lose{
+    font-family: 'Noto Sans TC', sans-serif;
+    outline:3px solid #79b796;
+    background-color: #33312f;
+}
+.score{
+    text-align: center;
+    height: 52px;
+}
+.dtd{
+    font-size: 30px;
+    text-align: center;
+    padding-left: 50px;
+    letter-spacing: 40px;
+}
+.next1{
+    text-align: center;
+    height: 52px;
+    background-color: #C8D5B9;
+    color: #4A7C59;
+    font-size: 30px;
+  
+}
+
+.game1{
+    text-align: center;
+    font-size: 40px;
+    height: 150px;
+    padding-top: 60px;
+}
+
+.time{
+    letter-spacing: 3px;
+}
+.host{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.vs2{
+    letter-spacing: 3px;
+}
+.visit{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.next2{
+    text-align: center;
+    height: 52px;
+    background-color: #4A7C59;
+    color: #C8D5B9;
+    font-size: 30px;
+}
+
+.back{
+   background-image: url(../images/me.jpg);
+   background-size: cover;
+   height: 800px; 
+   letter-spacing: 4px;
+   color: #fff;
+   font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro{
+
+height: 420px;
+;
+}
+.introleft{
+    text-align: center;
+}
+.meme{
+    padding-top: 15px;
+    height: 400px;
+    border-radius: 250px;
+}
+.autobiography{
+    color: #C8D5B9;
+    letter-spacing: 5px;
+    font-family: 'Noto Sans TC', sans-serif;
+    padding-top: 30px;
+    margin-top: 80px;
+    line-height: 30px;
+    background-color: #33312f;
+    height: 200px;
+    padding-left: 50px;
+}
+.abgf{
+    font-size: 2rem;
+}
+.bio2{
+    width: 500px;
+}
+.l{
+    outline: 1px solid #C8D5B9;
+}
+.aboutme{
+    background-color: #C8D5B9;
+    padding-top:30px;
+    height: 225px;
+    color: #33312f;
+}
+.topic{
+    font-size: 25px;
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align: center;
+    color: #33312f;
+    text-align: center;
+    border-bottom: 2px solid #33312f;
+ 
+}
+.c{
+    height: 25px;
+}
+.area{
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+    height: 25px;
+}
+.bcircle {
+    width: 15px;
+    height: 15px;
+    background-color: #33312f;
+    border-radius: 15px;
+}
+.wcircle {
+    width: 15px;
+    height: 15px;
+    background-color: #C8D5B9;
+    border-radius: 12px;
+    border:1px solid #33312f;
+}
+.language{
+    padding-left:100px;
+    font-family: 'Noto Sans TC', sans-serif;
+  
+}
+.education{
+    padding-left: 125px;
+    font-family: 'Noto Sans TC', sans-serif;
+    
+}
+.habbitt{
+    background-color: #33312f;
+    height: 80px;
+}
+.habbittitle{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    color: #C8D5B9;
+    border-bottom: 2px solid #C8D5B9; 
+
+}
+.habbit{
+    height: 380px;
+    background-color: #33312f;
+}
+.yah{
+    flex-direction: row;
+    display: inline-block;
+    text-align: center;
+    
+}
+.habbit1{
+    padding-top:50px;
+    width: 325px;
+    padding-right: 150px;
+}
+.habbit2{
+    padding-top:50px;
+    width: 325px;
+    padding-right: 150px;
+}
+.habbit3{
+    padding-top:50px;
+    width: 175px;
+}
+.habbittext{
+    height: 100px;
+    flex-direction: row;
+    display: inline-block;
+    text-align: center;
+    padding-left: 0;
+}
+.hab1{
+    margin-left: -30px;
+    flex-direction: row;
+    display: inline-block;
+    color: #C8D5B9;
+    font-size: 50px;
+    padding-right: 160px;
+}
+.hab2{
+    flex-direction: row;
+    display: inline-block;
+    color: #C8D5B9;
+    font-size: 50px;
+    
+    
+}
+.hab3{
+    flex-direction: row;
+    display: inline-block;
+    color: #C8D5B9;
+    font-size: 50px;
+    padding-left: 150px;
+}
+.icon{
+    justify-content: center;
+    align-self: center;
+    text-align: right;
+}
+
+.f1{
+    padding-right:10px;
+    width: 50px;
+}
+.f2{
+    padding-right:10px;
+    width: 50px;
+}
+.f3{
+    margin-right:0;
+    width: 40px;
+}
+.footer{
+    padding-top:5px;
+    height: 80px;
+    color:#c1b5b4;
+    background-color: #33312f;
+}
+.copyright{
+    text-align: center;
+
+    padding-top:20px; 
+}
+
+.point_landing{
+    background-image: url(../images/excite.png);
+    background-size: cover;
+    background-position: 0 -100px;
+    height: 600px;
+}
+.pointheight{
+    margin-top:150px; 
+    height: 340px;
+}
+.pointtitle{
+    font-size: 4rem;
+    text-align: center;
+    margin:auto;
+   
+}
+.pointdraw{
+    background-image: url(../images/perfect.jpg);
+    background-size: cover;
+}
+.pointintro{
+    height: 320px;
+}
+.pointtext{
+    padding-top: 100px;
+    padding-left: 82px;
+    letter-spacing: 4px;
+    font-family: 'Noto Sans TC', sans-serif;
+    
+}
+.point1{
+    height: 320px;
+    background-image: url(../images/hat.jpg);
+    background-size: cover;
+    
+}
+.point2{
+    height: 320px;
+    background-image: url(../images/haul.jpg);
+    background-size: cover;
+}
+.point3{
+    height: 320px;
+    background-image: url(../images/sofy.jpg);
+    background-size: cover;
+}
+.space{
+    height: 80px;
+}
